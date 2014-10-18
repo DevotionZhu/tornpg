@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 '''
-Connection to PostgreSQL in Tornado like torndb for MySQL
-Refer to another version of Torndb, which I can not find it now.
+Connecting to PostgreSQL in Tornado like torndb for MySQL
+Refer to another version of tornpg, which I can not find it now.
 Running under Python 3 now.
 
 Typical usage::
