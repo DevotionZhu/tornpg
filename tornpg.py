@@ -5,11 +5,14 @@ Connecting to PostgreSQL in Tornado like torndb for MySQL
 Refer to another version of tornpg, which I can not find it now.
 Running under Python 3 now.
 
+
 Typical usage::
     db = database.Connection("server", "postdb")
     for article in db.query("SELECT * FROM posts"):
         print (posts.title)
 '''
+
+__author__ = 'bukun@osgeo.cn'
 
 import logging
 import time
